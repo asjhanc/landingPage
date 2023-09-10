@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RENTSTATE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <img src="images/logo2.jpg">
+            <p class="logo"> RENTSTATE</p>
+            <nav>
+                <a href="https://renstate-aedf7.web.app">Unete</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class = "container">
+            <div class="text">
+                <h2>Find your perfect home <br> rigth now</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="somos">
+        <div class = "container">
+            <div class="img-container"></div>
+            <div class="text">
+                <h2>Somos <span class="color-acento">RENTSTATE!</span></h2>
+                <p>Nos encargamos de servir como nexo entre personas interesadas en rentar  inmuebles y los interesados en alquilar dichas propiedades. Nuestros objetivos son facilitar el proceso de búsqueda, sistematizar el registro y seguimiento de las cláusulas del contrato. Además de proporcionar un informe general sobre los registros y comentarios de los usuarios.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="category">
+        <div class="container">
+            <h2>Categorias</h2>
+               <div class="categorias">
+                    <div class="carta">
+                        <h3>Departamentos</h3>
+                        <p>Departamentos ubicados en lima y callao pueden ser habitados por 2 o más personas. Puedes continuar aqui tu busqueda segun la ubicación y otras caracteristicas que requieras!</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="carta">
+                        <h3>Viviendas</h3>
+                        <p>Casas completas en alquiler para vivir en familia con amplios espacios. Puedes hacer la busqueda en lugares especificos y con caracteristicas especificas ademas que tambien se permite filtros segun el precio</p>
+                        <button>Ver más</button>
+                        
+                    </div>
+                    
+                    <div class="carta">
+                        <h3>Locales Comerciales</h3>
+                        <p>Aqui encontraras todo en cuento a locales comerciales. Busaco los locales por precio, tamaño y ubicación.</p>
+                        <button>Ver más</button>
+                    </div>
+                    <div class="carta">
+                        <h3>Cuartos</h3>
+                        <p>Seccion en la que podras encontrar habitaciones para que vivan personas solas ideal para estudiantes o turistas.</p>
+                        <button>Ver más</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <div class="space"></div>
+
+    <section class="planes">
+        <div class="container">
+            <p>Elija Plan de <span class="color-acento">RENTSTATE</span></p>
+            
+            <div class="toggle-buttons">
+                <button class="toggle-button" onclick="toggleContent('content-anual')">Anual</button>
+                <button class="toggle-button" onclick="toggleContent('content-mensual')">Mensual</button>
+            </div>
+
+            <div class="content" id="content-anual">
+                <div class="card">
+                    <label>Free</label>
+                    <label>$0.00</label>
+                    <label>Month</label>
+                    <button>Start</button>
+                    <ul>
+                        <li>🔵 Publicación de hasta 3 anuncios</li>
+                        <li>🔵 Exposición de los anuncios por un período de 2 meses</li>
+                        <li>🔵 Acceso a todas las funciones de la plataforma, incluyendo herramientas de tasación y
+                            registro de clientes y propiedades</li>
+                        <li>🔵 Limitación a solo una publicación por categoría</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <label>Premium</label>
+                    <label>$13.99</label>
+                    <label>Month</label>
+                    <button>Start</button>
+                    <ul>
+                        <li>🔵 Publicación ilimitada de anuncios</li>
+                        <li>🔵 Exposición de los anuncios por un período ilimitado</li>
+                        <li>🔵 Acceso a todas las funciones de la plataforma, incluyendo herramientas de tasación,  registro de clientes y propiedades</li>
+                        <li>🔵 Sin limitaciones por categorías</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            
+            <div class="content" id="content-mensual">
+                <div class="card">
+                    <label>Free</label>
+                    <label>$0.00</label>
+                    <label>Month</label>
+                    <button>Start</button>
+                    <ul>
+                        <li>🔵 Publicación de hasta 3 anuncios</li>
+                        <li>🔵 Exposición de los anuncios por un período de 2 meses</li>
+                        <li>🔵 Acceso a todas las funciones de la plataforma, incluyendo herramientas de tasación y
+                            registro de clientes y propiedades</li>
+                        <li>🔵 Limitación a solo una publicación por categoría</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <label>Premium</label>
+                    <label>$20.99</label>
+                    <label>Month</label>
+                    <button>Start</button>
+                    <ul>
+                        <li>🔵 Publicación ilimitada de anuncios</li>
+                        <li>🔵 Exposición de los anuncios por un período ilimitado</li>
+                        <li>🔵 Acceso a todas las funciones de la plataforma, incluyendo herramientas de tasación,  registro de clientes y propiedades</li>
+                        <li>🔵 Sin limitaciones por categorías</li>
+                    </ul>
+                    
+                </div>
+            </div>
+    </section>
+    <div class="space"></div>
+    <footer>
+        <div class="container">
+            <img src="images/logo2.jpg" alt="#">
+            <div class="icons">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-tiktok"></ion-icon>
+            </div>
+            <p>&copy; RENTSTATE 2023 (Open Source-UPC)</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
