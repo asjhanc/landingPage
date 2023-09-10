@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+.color-acento{
+    color: #064789;
+}
+body{
+    font-family: 'RerossRectagular', 'seans-serif';
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size:2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0.5);
+    color: #EBF2FA;
+    background-color: #064789;
+}
+button:hover{
+    background-color:  rgb(57, 104, 143);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: #002C3E;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .container img{
+    width: 100px;
+    margin-top: 10px;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+header a{
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+header a:hover{
+    background-color: rgb(52, 148, 226);
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color:#F7F8F3;
+
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )
+    ,url("images/home.jpg");
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#somos .container{
+    text-align: center;
+    padding: 40px 12px;
+}
+
+#category{
+    background-color: #EBF2FA;
+    color: #EBF2FA;
+    text-align: center;
+}
+#category .container{
+    padding: 30px 10px;
+}
+#category h2{
+    color: rgb(52, 148, 226);
+}
+#category p{
+    display: none;
+}
+#category .carta{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )
+    ,url("images/apartment2.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )
+    ,url("images/vivienda.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )
+    ,url("images/local.jpg");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    )
+    ,url("images/cuartos.jpg");
+}
+
+.space{
+    background-color: white;
+    height: 40px;
+    width: 100vw;
+}
+
+.planes .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBF2FA;
+}
+.planes .container p{
+    color: black;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
