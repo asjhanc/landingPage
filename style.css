@@ -81,7 +81,7 @@ header a:hover{
     color:#F7F8F3;
 
     background-image: linear-gradient(
-        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+            0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
     )
     ,url("images/home.jpg");
 
@@ -120,25 +120,25 @@ header a:hover{
 
 .carta:first-child{
     background-image: linear-gradient(
-        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+            0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
     )
     ,url("images/apartment2.jpg");
 }
 .carta:nth-child(2){
     background-image: linear-gradient(
-        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+            0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
     )
     ,url("images/vivienda.jpg");
 }
 .carta:nth-child(3){
     background-image: linear-gradient(
-        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+            0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
     )
     ,url("images/local.jpg");
 }
 .carta:nth-child(4){
     background-image: linear-gradient(
-        0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+            0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)
     )
     ,url("images/cuartos.jpg");
 }
@@ -158,5 +158,120 @@ header a:hover{
 .planes .container p{
     color: black;
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.7rem;
+}
+.toggle-buttons{
+    font-size: 20px;
+    background-color: #0267CD;
+    height: 60px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.toggle-buttons button{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color:black;
+    font-weight: bold;
+    border-radius: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+.toggle-buttons button:hover{
+    background-color: whitesmoke;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    background-color: #F7F8F3;
+    border-radius: 10px;
+    border:1px solid black;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.card label{
+    padding: 0;
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.card button{
+    background-color: #004967;
+    box-shadow: none;
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+.card button:hover{
+    background-color: #013c54;
+}
+.card ul{
+    width: 90%;
+    padding:0;
+    margin: 15px auto;
+
+}
+.card li{
+    margin: 8px auto;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #002C3E;
+}
+footer p{
+    margin: 0;
+    color: white;
+    padding-top: 10px;
+    font-size: 1em;
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+footer .container img{
+    height: 43px;
+    width: 100px;
+    margin: 15px;
+}
+
+
+footer .icons{
+    color:#DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0 3px 0;
+    padding: 0;
+}
+
+footer .icons ion-icon{
+    margin: 15px
 }
